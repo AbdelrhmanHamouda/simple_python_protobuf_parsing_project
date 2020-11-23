@@ -1,6 +1,7 @@
 syntax = "proto3";
 
-import "person_info.proto";
+// Note the use of "generated" folder here; this is because the generated _pb2.py file will rely on the _pb2.py file generated in the future from person_info.proto 
+import "generated/person_info.proto";
 
 package persons;
 
