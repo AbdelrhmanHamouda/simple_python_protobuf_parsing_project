@@ -13,6 +13,8 @@ brew install protobuf
 protoc -I=. --python_out=. ./todolist.proto
 ```
 This will generate a <.proto_filename>.pb2.py
+#### A visalization on what is being done by the `protoc` command
+<img src="https://user-images.githubusercontent.com/7114320/100013532-468f1c00-2dd5-11eb-8ff6-3d9325fd7489.png"  width="500">
 
 ### Step2: Pip install protobuf
 - Figure out the protoc version 
