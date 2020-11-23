@@ -1,2 +1,2 @@
-# simple_python_protobuf_parsing_project
-A simple Python based protobuf project
+# simple python protobuf parsing project
+An attempt to make a python protobuf parser. 
