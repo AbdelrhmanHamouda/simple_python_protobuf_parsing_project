@@ -43,8 +43,8 @@ python3 proto_test.py
 python3 person_with_one_friend.py
 ```
 
-# Output
-```json
+# Output
+```bash
 // From Example_todo_list 
 My OG list is:
 owner_id: 1234
@@ -83,7 +83,6 @@ friends {
     }
   }
 }
-
 My new person is:
 info {
   age: 30
@@ -111,6 +110,6 @@ friends {
 - https://developers.google.com/protocol-buffers/docs/pythontutorial
 
 
-##### TODO:
+##### TODO
 - Go over examples in this repo
     - https://github.com/simplesteph/protobuf-example-python
