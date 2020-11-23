@@ -11,13 +11,12 @@ first_item.task = "Test ProtoBuf for Python"
 first_item.due_date = "31.10.2019"
 
 #! Write into a file
-with open("./serializedFile", "wb") as fd:
+with open("Example_todo_list/serializedFile", "wb") as fd:
     fd.write(my_list.SerializeToString())
-
 
 #! Read from a file
 my_new_list = TodoList.TodoList()
-with open("./serializedFile", "rb") as fd:
+with open("Example_todo_list/serializedFile", "rb") as fd:
     my_new_list.ParseFromString(fd.read())
 
 print(f'My OG list is:\n{my_list}')
