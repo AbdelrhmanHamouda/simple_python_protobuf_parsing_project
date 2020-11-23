@@ -12,3 +12,4 @@ brew install protobuf
 ```bash
 protoc -I=. --python_out=. ./todolist.proto
 ```
+This will generate a <.proto_filename>.pb2.py
