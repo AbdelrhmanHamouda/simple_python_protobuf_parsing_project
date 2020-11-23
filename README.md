@@ -1,7 +1,7 @@
 # simple python protobuf parsing project
 An attempt to make a python protobuf parser. 
 
-# How to install 
+# How to install protobuf for MacOS 
 ```bash
 brew install protobuf
 ```
@@ -28,3 +28,8 @@ source venv/bin/activate
 ```bash
 pip3 install protobuf==3.14.0
 ```
+### Step3: Run the python script
+```bash
+python3 proto_test.py
+```
+
