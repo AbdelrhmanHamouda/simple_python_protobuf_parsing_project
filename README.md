@@ -19,6 +19,11 @@ This will generate a <.proto_filename>.pb2.py
 ``` bash 
 protoc --version
 ```
+- Create and activate your venv
+```bash
+python3 -m venv venv
+source venv/bin/activate
+``` 
 - Pip install the same protobuf version 
 ```bash
 pip3 install protobuf==3.14.0
