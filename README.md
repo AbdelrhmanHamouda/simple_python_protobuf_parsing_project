@@ -111,3 +111,6 @@ friends {
 - https://developers.google.com/protocol-buffers/docs/pythontutorial
 
 
+##### TODO:
+- Go over examples in this repo
+    - https://github.com/simplesteph/protobuf-example-python
