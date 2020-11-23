@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package persons;
 
+// enum is used to define custom types (e.g. int32, string, etc...)
 enum Sex {
     M = 0; // male 
     F = 1; // female
