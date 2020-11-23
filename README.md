@@ -40,9 +40,74 @@ pip3 install protobuf==3.14.0
 # For Example_todo_list
 python3 proto_test.py
 # For Example_person_profile 
+python3 person_with_one_friend.py
 ```
+
+# Output
+```json
+// From Example_todo_list 
+My OG list is:
+owner_id: 1234
+owner_name: "Tim"
+todos {
+  state: TASK_DONE
+  task: "Test ProtoBuf for Python"
+  due_date: "31.10.2019"
+}
+
+My new list is:
+owner_id: 1234
+owner_name: "Tim"
+todos {
+  state: TASK_DONE
+  task: "Test ProtoBuf for Python"
+  due_date: "31.10.2019"
+}
+
+
+// Fron Example_person_profile
+My OG person is:
+info {
+  age: 30
+  height: 184
+}
+friends {
+  friendship_duration: 365.1000061035156
+  shared_hobbies: "books"
+  shared_hobbies: "daydreaming"
+  shared_hobbies: "unicorns"
+  person {
+    info {
+      age: 40
+      height: 165
+    }
+  }
+}
+
+My new person is:
+info {
+  age: 30
+  height: 184
+}
+friends {
+  friendship_duration: 365.1000061035156
+  shared_hobbies: "books"
+  shared_hobbies: "daydreaming"
+  shared_hobbies: "unicorns"
+  person {
+    info {
+      age: 40
+      height: 165
+    }
+  }
+}
+```
+
 
 
 ## References
 - https://www.freecodecamp.org/news/googles-protocol-buffers-in-python/
+- https://www.datascienceblog.net/post/programming/essential-protobuf-guide-python/
+- https://developers.google.com/protocol-buffers/docs/pythontutorial
+
 
