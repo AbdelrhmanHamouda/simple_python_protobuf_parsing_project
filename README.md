@@ -36,6 +36,6 @@ python3 proto_test.py
 ```
 
 
-## References
+## References
 - https://www.freecodecamp.org/news/googles-protocol-buffers-in-python/
 
