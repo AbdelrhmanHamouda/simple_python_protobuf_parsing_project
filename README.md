@@ -10,7 +10,12 @@ brew install protobuf
 # How to run 
 ### Step1: Generate the .pb2.py
 ```bash
+# For Example_todo_list
 protoc -I=. --python_out=. ./todolist.proto
+# For Example_person_profile 
+mkdir generated
+protoc interfaces/person_info.proto --python_out Example_person_profile/ --proto_path generated=interfaces/
+protoc interfaces/person.proto --python_out Example_person_profile/ --proto_path generated=interfaces/
 ```
 This will generate a <.proto_filename>.pb2.py
 #### A visalization on what is being done by the `protoc` command
@@ -32,7 +37,9 @@ pip3 install protobuf==3.14.0
 ```
 ### Step3: Run the python script
 ```bash
+# For Example_todo_list
 python3 proto_test.py
+# For Example_person_profile 
 ```
 
 
