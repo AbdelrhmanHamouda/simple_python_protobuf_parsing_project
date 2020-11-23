@@ -7,8 +7,8 @@ brew install protobuf
 ```
 
 
-# How to run
-#h2 Step1:
+# How to run 
+### Step1:
 ```bash
 protoc -I=. --python_out=. ./todolist.proto
 ```
