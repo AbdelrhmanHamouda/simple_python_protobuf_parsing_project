@@ -1,5 +1,5 @@
 # simple python protobuf parsing project
-An attempt to make a python protobuf parser. 
+The idea of this repo is to understand what protobuf is and how to use it (generally and with Python specifically).
 
 # How to install protobuf for MacOS 
 ```bash
